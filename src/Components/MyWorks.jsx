@@ -115,7 +115,7 @@ const MyWorks = () => {
 
 
                 <div className=' shadow-lg hover:shadow-none shadow-[#de0dfe53] dark:shadow-[#38d9a962] rounded button buttton border-2 h-[180px] md:h-[200px] md:w-[400px] w-[360px] relative' data-aos="zoom-in-right" data-aos-duration="1000">
-                    <img className='h-full object-cover rounded ' src="../../public/works/1.jpeg" alt="" />
+                    <img className='h-full object-cover rounded ' src="../../public/works/row-1-column-1.png" alt="" />
                     <div className="overlay flex-col rounded delay-150 ease-in-out absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-lg">
                         <span className=' font-extrabold text-2xl pb-2 '>Cinematic movie
                         </span>
@@ -128,9 +128,10 @@ const MyWorks = () => {
                 <dialog id="my_modal_5" className="modal" style={{ overflow: "hidden" }}>
                     <form method="dialog" className="modal-box md:w-[800px] bg-[#320339] max-w-5xl">
                         <Swiper slidesPerView={1} spaceBetween={30} pagination={{ clickable: true, }} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded-lg">
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/1.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/2.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/3.jpeg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row1.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row2.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row3.png" alt="" /></SwiperSlide>
+                              <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row4.png" alt="" /></SwiperSlide>
 
                         </Swiper>
                         <div className='mx-5'>
