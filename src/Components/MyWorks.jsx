@@ -18,7 +18,7 @@ const MyWorks = () => {
                     <a href="#allworks"><button type="button" className="styled-button py-2 border-[#1ed2ff] hover:border-[#b3ff00] border-2 text-[#1effa9] duration-1000 px-4 font-semibold hover:text-white rounded-3xl bg-gradient-to-r from-[#ee00ff] to-blue-500 hover:via-[#e100ff] hover:from-[#00d0ff] hover:to-[#bf2eec] transition ease-in-out">View all projects</button></a>
                 </div>
                 <div className='shadow-lg hover:shadow-none shadow-[#de0dfe53] dark:shadow-[#38d9a962] rounded button buttton border-2 h-[180px] md:h-[200px] md:w-[400px] w-[360px] relative'>
-                    <img className='h-full object-cover rounded' src="../../public/works/p1.jpeg" alt="" />
+                    <img className='h-full object-cover rounded' src="https://i.ibb.co/ChbmZmc/p1.jpg" alt="" />
                     <div className="overlay flex-col rounded delay-150 ease-in-out absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-lg">
                         <span className='words font-extrabold text-2xl pb-2 text-transparent'>Easy Watch App</span>
                         <div className='flex gap-3 text-white' id='allworks'>
@@ -30,14 +30,14 @@ const MyWorks = () => {
                 <dialog id="my_modal_1" className="modal" style={{ overflow: "hidden" }}>
                     <form method="dialog" className="modal-box md:w-[800px] bg-[#320339] max-w-5xl">
                         <Swiper slidesPerView={1} spaceBetween={30} pagination={{ clickable: true, }} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded-lg">
-                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="../../public/works/p1.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="../../public/works/p4.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="../../public/works/p3.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="../../public/works/p2.jpeg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/ChbmZmc/p1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/tLjn3Hj/p3.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/Bc4HgCg/p4.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:md:w-[700px] object-cover md:md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/7SxWdLW/p2.jpg" alt="" /></SwiperSlide>
                            
                         </Swiper>
                         <div className='mx-5'>
-                            <h3 className="font-bold text-2xl pt-5">TuneYo- Easy Watch Shop</h3>
+                            <h3 className="font-bold text-2xl pt-5">Easy Watch Shop</h3>
                             <h1 className='text-xl py-3 font-semibold'>Some key features and functionalities the project:</h1>
                             <div>
                                 <ol>
@@ -69,7 +69,7 @@ const MyWorks = () => {
 
 
                 <div className=' shadow-lg hover:shadow-none shadow-[#de0dfe53] dark:shadow-[#38d9a962] rounded button buttton border-2 h-[180px] md:h-[200px] md:w-[400px] w-[360px] relative' data-aos="zoom-in-right" data-aos-duration="1000">
-                    <img className='h-full object-cover rounded ' src="../../public/works/1.jpeg" alt="" />
+                    <img className='h-full object-cover rounded ' src="https://i.ibb.co/jGvk6mk/1.jpg" alt="" />
                     <div className="overlay flex-col rounded delay-150 ease-in-out absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-lg">
                         <span className=' font-extrabold text-2xl pb-2 '>My Mission in 2020</span>
                         <div className='flex gap-3 text-white'>
@@ -81,9 +81,9 @@ const MyWorks = () => {
                 <dialog id="my_modal_2" className="modal" style={{ overflow: "hidden" }}>
                     <form method="dialog" className="modal-box md:w-[800px] bg-[#320339] max-w-5xl">
                         <Swiper slidesPerView={1} spaceBetween={30} pagination={{ clickable: true, }} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded-lg">
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/1.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/2.jpeg" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/3.jpeg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/jGvk6mk/1.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/BNjyhNL/2.jpg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/QPbGf9w/3.jpg" alt="" /></SwiperSlide>
 
                         </Swiper>
                         <div className='mx-5'>
@@ -115,23 +115,23 @@ const MyWorks = () => {
 
 
                 <div className=' shadow-lg hover:shadow-none shadow-[#de0dfe53] dark:shadow-[#38d9a962] rounded button buttton border-2 h-[180px] md:h-[200px] md:w-[400px] w-[360px] relative' data-aos="zoom-in-right" data-aos-duration="1000">
-                    <img className='h-full object-cover rounded ' src="../../public/works/row-1-column-1.png" alt="" />
+                    <img className='h-full object-cover rounded ' src="https://i.ibb.co/DwdDtJN/row1.png" alt="" />
                     <div className="overlay flex-col rounded delay-150 ease-in-out absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-lg">
                         <span className=' font-extrabold text-2xl pb-2 '>Cinematic movie
                         </span>
                         <div className='flex gap-3 text-white'>
                             <button onClick={() => window.my_modal_5.showModal()} className='glass px-2 w-[80px]'>Details</button>
-                            <a href="https://cinematic-movie-ki5amge4x-nayem-upo.vercel.app/" target='_blank'><button className='glass px-2 w-26'>Live View</button></a>
+                            <a href="https://cinematic-movie-client.vercel.app/" target='_blank'><button className='glass px-2 w-26'>Live View</button></a>
                         </div>
                     </div>
                 </div>
                 <dialog id="my_modal_5" className="modal" style={{ overflow: "hidden" }}>
                     <form method="dialog" className="modal-box md:w-[800px] bg-[#320339] max-w-5xl">
                         <Swiper slidesPerView={1} spaceBetween={30} pagination={{ clickable: true, }} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded-lg">
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row1.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row2.png" alt="" /></SwiperSlide>
-                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row3.png" alt="" /></SwiperSlide>
-                              <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/row4.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/DwdDtJN/row1.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/d0xbRCL/row2.png" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/S7DGVNd/row3.png" alt="" /></SwiperSlide>
+                              <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="https://i.ibb.co/R3CvxDW/row4.png" alt="" /></SwiperSlide>
 
                         </Swiper>
                         <div className='mx-5'>
