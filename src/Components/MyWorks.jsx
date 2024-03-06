@@ -108,6 +108,61 @@ const MyWorks = () => {
                 </dialog>
            
 
+
+
+
+           {/* another  */}
+
+
+                <div className=' shadow-lg hover:shadow-none shadow-[#de0dfe53] dark:shadow-[#38d9a962] rounded button buttton border-2 h-[180px] md:h-[200px] md:w-[400px] w-[360px] relative' data-aos="zoom-in-right" data-aos-duration="1000">
+                    <img className='h-full object-cover rounded ' src="../../public/works/1.jpeg" alt="" />
+                    <div className="overlay flex-col rounded delay-150 ease-in-out absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 flex justify-center items-center text-lg">
+                        <span className=' font-extrabold text-2xl pb-2 '>Cinematic movie
+                        </span>
+                        <div className='flex gap-3 text-white'>
+                            <button onClick={() => window.my_modal_5.showModal()} className='glass px-2 w-[80px]'>Details</button>
+                            <a href="https://cinematic-movie-ki5amge4x-nayem-upo.vercel.app/" target='_blank'><button className='glass px-2 w-26'>Live View</button></a>
+                        </div>
+                    </div>
+                </div>
+                <dialog id="my_modal_5" className="modal" style={{ overflow: "hidden" }}>
+                    <form method="dialog" className="modal-box md:w-[800px] bg-[#320339] max-w-5xl">
+                        <Swiper slidesPerView={1} spaceBetween={30} pagination={{ clickable: true, }} centeredSlides={true} autoplay={{ delay: 2500, disableOnInteraction: false, }} modules={[Autoplay, Pagination, Navigation]} className="mySwiper rounded-lg">
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/1.jpeg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/2.jpeg" alt="" /></SwiperSlide>
+                            <SwiperSlide><img className='md:w-[700px] object-cover md:h-[350px] mx-auto rounded-lg' src="../../public/works/3.jpeg" alt="" /></SwiperSlide>
+
+                        </Swiper>
+                        <div className='mx-5'>
+                            <h3 className="font-bold text-2xl pt-5">Cinematic movie</h3>
+                            <h1 className='text-xl  py-3 font-semibold'>I proudly present my newly crafted website, created with speed and efficiency.</h1>
+                           
+                            <div>
+                                <h1 className='text-xl py-3 font-semibold'>Technologies Used:</h1>
+                                <p className='text-[#1ed2ff]'>Nextjs,Clerk,tailwind css ,node js,express</p>
+                                <div className='flex justify-evenly my-5'>
+                                    <a target='_blank' href="https://cinematic-movie-ki5amge4x-nayem-upo.vercel.app/"> <button type="button" className="md:py-1 md:text-base text-sm py-1 border-[#1ed2ff] hover:border-[#b3ff00] border-2 text-[#1effa9] duration-1000 px-3 md:px-4 font-semibold hover:text-white rounded-3xl bg-gradient-to-r from-[#ee00ff] to-blue-500 hover:via-[#e100ff] hover:from-[#00d0ff] hover:to-[#bf2eec] transition ease-in-out hover:scale-110 w-[84px]">Live</button></a>
+                                    <a target='_blank' href="https://github.com/Badol-Hossain1/cinematic-movie-client"> <button type="button" className="md:py-1 md:text-base text-sm py-1 border-[#1ed2ff] hover:border-[#b3ff00] border-2 text-[#1effa9] duration-1000 px-3 md:px-4 font-semibold hover:text-white rounded-3xl bg-gradient-to-r from-[#ee00ff] to-blue-500 hover:via-[#e100ff] hover:from-[#00d0ff] hover:to-[#bf2eec] transition ease-in-out hover:scale-110 w-[84px]">Client</button></a>
+                                      <a target='_blank' href="https://github.com/Badol-Hossain1/cinematic-movie"> <button type="button" className="md:py-1 md:text-base text-sm py-1 border-[#1ed2ff] hover:border-[#b3ff00] border-2 text-[#1effa9] duration-1000 px-3 md:px-4 font-semibold hover:text-white rounded-3xl bg-gradient-to-r from-[#ee00ff] to-blue-500 hover:via-[#e100ff] hover:from-[#00d0ff] hover:to-[#bf2eec] transition ease-in-out hover:scale-110 w-[84px]">Server</button></a>
+                                </div>
+                            </div>
+                            <p className="md:pt-10">Click the button below to close</p>
+                        </div>
+                        <div className="modal-action my-0">
+                            {/* if there is a button, it will close the modal */}
+                            <button className="py-2 px-3 rounded-md glass border-2">Close</button>
+                        </div>
+                    </form>
+                </dialog>
+           
+
+
+
+
+
+              
+            
+
        
 
              

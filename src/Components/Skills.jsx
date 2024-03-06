@@ -12,7 +12,7 @@ const Skills = () => {
                     <h1 className='text-2xl text-[#DC0DFE] dark:text-[#38D9A9] mb-5 text-center'>Frontend</h1>
                     <ul className="flex md:gap-20 gap-14 justify-center">
                         <ol className='flex flex-col gap-2 '>
-                            <li>▶ HTML5</li>
+                            <li>▶ Next js</li>
                             <li>▶ CSS3</li>
                             <li>▶ Tailwind</li>
                             <li>▶ Bootstrap5</li>
@@ -40,7 +40,9 @@ const Skills = () => {
                         </ol>
                         <ol className='flex flex-col gap-2'>
                             <li>▶ Rest API</li>
-                            <li>▶ Cors</li>
+                            <li>▶ Prisma</li> 
+                   
+                    
                         </ol>
                     </ul>
                 </div>
