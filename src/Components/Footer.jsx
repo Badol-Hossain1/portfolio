@@ -11,7 +11,7 @@ const Footer = () => {
                 <Link target='_blank' to="https://www.linkedin.com/in/badol-hossain-416b59267/"><FaLinkedin className='text-2xl hover:scale-125 text-white hover:text-[#1ed2ff] dark:hover:text-[#38D9A9] duration-200 cursor-pointer' /></Link>
             </div>
             <h1 className='md:text-2xl text-xl text-white text-center md:mb-10 mb-2'>Designed and Developed by <span className='text-[#1ed2ff]'>Badol Hossain</span></h1>
-            <p className='text-white text-center'>Copyright Ⓒ 2023. All Rights Reserved.</p>
+            <p className='text-white text-center'>Copyright Ⓒ 2024. All Rights Reserved.</p>
         </div>
     );
 };
